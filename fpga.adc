@@ -1,0 +1,80 @@
+
+set_pin_assignment	{ sysclk_i     }	{ LOCATION = B8; }
+set_pin_assignment	{ rst_n }	{ LOCATION = T9; }
+
+
+#HDMI1 TX
+set_pin_assignment	{ HDMI_CLK_P   		 }	{ LOCATION = U1; IOSTANDARD = LVDS25; }
+set_pin_assignment	{ HDMI_TX_P[0] 		 }	{ LOCATION = R1 ; IOSTANDARD = LVDS25; }
+set_pin_assignment	{ HDMI_TX_P[1] 		 }	{ LOCATION = K3 ; IOSTANDARD = LVDS25; }
+set_pin_assignment	{ HDMI_TX_P[2] 		 }	{ LOCATION = U2 ; IOSTANDARD = LVDS25; }
+
+set_pin_assignment	{ sdram_addr[0] }	{ LOCATION = U11; }
+set_pin_assignment	{ sdram_addr[10] }	{ LOCATION = V12; }
+set_pin_assignment	{ sdram_addr[11] }	{ LOCATION = U17; }
+set_pin_assignment	{ sdram_addr[12] }	{ LOCATION = U18; }
+set_pin_assignment	{ sdram_addr[1] }	{ LOCATION = V11; }
+set_pin_assignment	{ sdram_addr[2] }	{ LOCATION = T11; }
+set_pin_assignment	{ sdram_addr[3] }	{ LOCATION = V10; }
+set_pin_assignment	{ sdram_addr[4] }	{ LOCATION = U12; }
+set_pin_assignment	{ sdram_addr[5] }	{ LOCATION = U13; }
+set_pin_assignment	{ sdram_addr[6] }	{ LOCATION = V14; }
+set_pin_assignment	{ sdram_addr[7] }	{ LOCATION = U14; }
+set_pin_assignment	{ sdram_addr[8] }	{ LOCATION = U16; }
+set_pin_assignment	{ sdram_addr[9] }	{ LOCATION = V17; }
+set_pin_assignment	{ sdram_ba[0] }	{ LOCATION = R15; }
+set_pin_assignment	{ sdram_ba[1] }	{ LOCATION = T14; }
+set_pin_assignment	{ sdram_cas_n }	{ LOCATION = P17; }
+set_pin_assignment	{ sdram_cke }	{ LOCATION = N15; }
+set_pin_assignment	{ sdram_clk }	{ LOCATION = L16; }
+set_pin_assignment	{ sdram_cs_n }	{ LOCATION = P15; }
+set_pin_assignment	{ sdram_data[0] }	{ LOCATION = N17; }
+set_pin_assignment	{ sdram_data[10] }	{ LOCATION = T18; }
+set_pin_assignment	{ sdram_data[11] }	{ LOCATION = N14; }
+set_pin_assignment	{ sdram_data[12] }	{ LOCATION = P14; }
+set_pin_assignment	{ sdram_data[13] }	{ LOCATION = P18; }
+set_pin_assignment	{ sdram_data[14] }	{ LOCATION = M16; }
+set_pin_assignment	{ sdram_data[15] }	{ LOCATION = M17; }
+set_pin_assignment	{ sdram_data[1] }	{ LOCATION = T15; }
+set_pin_assignment	{ sdram_data[2] }	{ LOCATION = V15; }
+set_pin_assignment	{ sdram_data[3] }	{ LOCATION = V16; }
+set_pin_assignment	{ sdram_data[4] }	{ LOCATION = L18; }
+set_pin_assignment	{ sdram_data[5] }	{ LOCATION = M18; }
+set_pin_assignment	{ sdram_data[6] }	{ LOCATION = R12; }
+set_pin_assignment	{ sdram_data[7] }	{ LOCATION = R13; }
+set_pin_assignment	{ sdram_data[8] }	{ LOCATION = M13; }
+set_pin_assignment	{ sdram_data[9] }	{ LOCATION = R18; }
+set_pin_assignment	{ sdram_dqm[0] }	{ LOCATION = R16; }
+set_pin_assignment	{ sdram_dqm[1] }	{ LOCATION = T16; }
+set_pin_assignment	{ sdram_ras_n }	{ LOCATION = R17; }
+set_pin_assignment	{ sdram_we_n }	{ LOCATION = N16; }
+
+set_pin_assignment	{ led[0] }	{ LOCATION = K17; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ led[1] }	{ LOCATION = K18; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ led[2] }	{ LOCATION = L14; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ led[3] }	{ LOCATION = M14; IOSTANDARD = LVCMOS33; }
+
+
+set_pin_assignment {cam_data[0]} { LOCATION = B18; IOSTANDARD = LVCMOS33;  }
+set_pin_assignment {cam_data[1]} { LOCATION = B16; IOSTANDARD = LVCMOS33;  }
+set_pin_assignment {cam_data[2]} { LOCATION = A18; IOSTANDARD = LVCMOS33;  }
+set_pin_assignment {cam_data[3]} { LOCATION = J14; IOSTANDARD = LVCMOS33;  }
+set_pin_assignment {cam_data[4]} { LOCATION = K15; IOSTANDARD = LVCMOS33;  }
+set_pin_assignment {cam_data[5]} { LOCATION = H15; IOSTANDARD = LVCMOS33;  }
+set_pin_assignment {cam_data[6]} { LOCATION = J15; IOSTANDARD = LVCMOS33;  }
+set_pin_assignment {cam_data[7]} { LOCATION = H17; IOSTANDARD = LVCMOS33;  }
+set_pin_assignment {cam_href} { LOCATION = D18;  }
+set_pin_assignment {cam_pclk} { LOCATION = J18;  }
+set_pin_assignment {cam_pwdn} { LOCATION = J17;  }
+set_pin_assignment {cam_rst_n} { LOCATION = B17;  }
+set_pin_assignment {cam_scl} { LOCATION = G18; PULLTYPE = PULLUP;  }
+set_pin_assignment {cam_sda} { LOCATION = F18;  }
+set_pin_assignment {cam_vsync} { LOCATION = E18;  }
+
+
+
+#HDMI2 TX
+#set_pin_assignment	{ HDMI_CLK_P   		 }	{ LOCATION = P4; IOSTANDARD = LVDS25; }
+#set_pin_assignment	{ HDMI_TX_P[0] 		 }	{ LOCATION = R3 ; IOSTANDARD = LVDS25; }
+#set_pin_assignment	{ HDMI_TX_P[1] 		 }	{ LOCATION = U4 ; IOSTANDARD = LVDS25; }
+#set_pin_assignment	{ HDMI_TX_P[2] 		 }	{ LOCATION = V5 ; IOSTANDARD = LVDS25; }
